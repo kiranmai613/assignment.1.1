@@ -1,0 +1,93 @@
+1.What are the different data types in Python?
+Answer: The different data types in Python include integers, floats, strings, booleans, and lists.
+
+2.What is the difference between a tuple and a list in Python?
+Answer: Tuples are immutable, while lists are mutable. This means that once a tuple is created, you cannot add, delete, or modify any of its elements. Lists, on the other hand, can be modified after they are created.
+
+3.What is the difference between == and is in Python?
+Answer: The == operator compares the values of two objects, while the is operator compares their identities. In other words, == returns True if the objects have the same value, while is returns True if they are the same object.
+
+4.What are some of the arithmetic operators in Python?
+Answer: The arithmetic operators in Python include + (addition), - (subtraction), * (multiplication), / (division), % (modulus), ** (exponentiation), and // (floor division).
+
+5.What is a conditional statement in Python?
+Answer: A conditional statement in Python is a statement that is executed only if a certain condition is true. The most common types of conditional statements in Python are if statements and if-else statements.
+
+6.What is the difference between while and for loops in Python?
+Answer: While loops are used to repeatedly execute a block of code while a certain condition is true. For loops, on the other hand, are used to iterate over a sequence of values, such as the elements of a list or the characters in a string.
+
+7.What is a function in Python?
+Answer: A function in Python is a block of code that performs a specific task and can be called from other parts of a program. Functions can have parameters and return values, and they are often used to break down complex tasks into smaller, more manageable pieces.
+
+8.What is the difference between a global variable and a local variable in Python?
+Answer: A global variable is a variable that is defined outside of any function, and can be accessed from any part of a program. A local variable, on the other hand, is a variable that is defined inside a function and can only be accessed within that function.
+
+9.How do you declare a variable in Python?
+Answer: Variables in Python are declared simply by assigning a value to a name. For example, to declare a variable called x with the value 5, you would write x = 5.
+
+10.What is the purpose of the range function in Python?
+Answer: The range function in Python is used to generate a sequence of numbers. It takes one, two, or three arguments, depending on how it is used, and returns a range object that can be used in a for loop or other context that requires a sequence of values.
+
+11.What is the purpose of the break statement in Python?
+Answer: The break statement in Python is used to exit a loop prematurely. When the break statement is encountered, the loop is immediately terminated and control is passed to the next statement after the loop.
+
+12.What is the purpose of the continue statement in Python?
+Answer: The continue statement in Python is used to skip over the current iteration of a loop and move on to the next iteration. When the continue statement is encountered, the loop immediately moves on to the next iteration, without executing any more code for the current iteration.
+
+13.What is the purpose of the pass statement in Python?
+Answer: The pass statement in Python is used as a placeholder when no action is required. It is often used in empty functions or loops, where the body of the function or loop has not yet been written.
+
+14.What is a lambda function in Python?
+Answer: A lambda function is a small, anonymous function that can be defined inline with the code. It is typically used for short, simple operations where you do not need to define a full function.
+
+15.How do you reverse a list in Python?
+Answer: You can use the reverse() function to reverse a list in Python. For example, if you have a list called mylist, you can reverse it with the code mylist.reverse().
+
+16.What is a generator in Python?
+Answer: A generator is a function that returns an iterator, which can be used to iterate over a sequence of values. The key difference between a generator and a regular function is that a generator yields values one at a time, rather than returning a complete list.
+
+17.What is the purpose of the 'break' statement in Python?
+Answer: The 'break' statement is used to exit a loop early, before the loop has finished iterating through all the items. It is typically used in conjunction with an 'if' statement to test for a certain condition and exit the loop if the condition is met.
+
+18.What is the purpose of the 'continue' statement in Python?
+Answer: The 'continue' statement is used to skip over an iteration of a loop, and move on to the next iteration. It is typically used in conjunction with an 'if' statement to test for a certain condition and skip over the loop if the condition is met.
+
+19. write a logic of fibonacci series ?
+n = int(input("Enter the number of terms: "))
+
+# initialize first two terms
+a, b = 0, 1
+
+# check if n is valid
+if n <= 0:
+   print("Please enter a positive integer")
+elif n == 1:
+   print("Fibonacci sequence up to", n, ":")
+   print(a)
+else:
+   print("Fibonacci sequence:")
+   for i in range(n):
+       print(a)
+       a, b = b, a + b
+
+20. write lambda syntax and example?
+Answer : lambda arguments: expression
+
+eX:  add = lambda x, y: x + y
+
+result = add(3, 5)
+print(result) # Output: 8
+
+21. write a code using list comprehension of square of numbers?
+
+# create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# use list comprehension to generate a new list
+squares = [x**2 for x in numbers]
+
+# print the new list
+print(squares)
+
+
+
